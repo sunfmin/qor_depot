@@ -1,0 +1,23 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: drafts_depot_development
+  pool: 5
+  username: root
+
+
+
+test:
+  adapter: mysql2
+  encoding: utf8
+  database: depot_test
+  pool: 5
+  username: root
+
+production:
+  adapter: mysql2
+  encoding: utf8
+  database: depot_production
+  pool: 5
+  username: root
+  
